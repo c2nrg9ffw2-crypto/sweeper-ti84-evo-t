@@ -34,7 +34,7 @@ A colour Minesweeper game for the **TI-84 Evo-T** graphing calculator, written i
    The Python app on the Evo-T only shows files that are in RAM.
    (Want to keep the game safe? See [Don't lose the game](#dont-lose-the-game).)
 
-> **Already sent it to Archive?** On the calculator press **2nd → mem → Mem Management**,
+> **Already sent it to Archive?** On the **home screen** (not in the Python app) press **2nd → mem → Mem Management**,
 > find **SWEEPER** and press **enter**. The `*` in front of the name disappears, which means
 > it is now in RAM.
 
@@ -52,9 +52,12 @@ A normal turn-off is fine, but after some time the game is gone.
 **Best way:**
 
 1. Keep the game in **Archive**. Archive is never deleted.
-2. Before playing, press **2nd → mem → Mem Management**, find **SWEEPER** and press **enter**.
-   The `*` disappears, which means the game is now in RAM.
-3. Open the **Python** app and play.
+2. Go to the **home screen**. If you are in the Python app, leave it with **2nd → quit**
+   (quit is above the **mode** key). In the Python app, **2nd → mem** does nothing.
+3. Press **2nd → mem** (mem is above the **+** key) and choose **2: Mem Management**.
+4. Choose the list with Python programs (or **All**).
+5. Find **SWEEPER** and press **enter**. The `*` disappears, which means the game is now in RAM.
+6. Open the **Python** app and play.
 
 Programs can't move files between Archive and RAM by themselves, so this step can't be automatic.
 The wins list **MINES** is in RAM too, so it can be deleted the same way.
@@ -78,7 +81,7 @@ The wins list **MINES** is in RAM too, so it can be deleted the same way.
 
 Your wins and games are saved in a calculator list called **MINES**, so they stay after you quit.
 
-- To reset them, delete the list **MINES** in **2nd → mem → Mem Management**.
+- To reset them, delete the list **MINES** in **2nd → mem → Mem Management** (on the home screen).
 - A calculator reset (RAM clear) also resets them.
 
 ## Good to know
